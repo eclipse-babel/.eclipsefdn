@@ -41,6 +41,6 @@ orgs.newOrg('eclipse-babel') {
       web_commit_signoff_required: false,
     },
     orgs.newRepo('translations') {
-    }
+    },
   ],
 }
