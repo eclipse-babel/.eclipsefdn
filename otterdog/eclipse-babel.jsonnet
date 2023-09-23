@@ -18,24 +18,32 @@ orgs.newOrg('eclipse-babel') {
   },
   _repositories+:: [
     orgs.newRepo('babel-website') {
+      allow_merge_commit: true,
       allow_update_branch: false,
       default_branch: "master",
+      delete_branch_on_merge: false,
       dependabot_alerts_enabled: false,
       web_commit_signoff_required: false,
     },
     orgs.newRepo('plugins') {
+      allow_merge_commit: true,
       allow_update_branch: false,
       default_branch: "master",
+      delete_branch_on_merge: false,
       dependabot_alerts_enabled: false,
       web_commit_signoff_required: false,
     },
     orgs.newRepo('server') {
+      allow_merge_commit: true,
       allow_update_branch: false,
       default_branch: "master",
+      delete_branch_on_merge: false,
       dependabot_alerts_enabled: false,
       web_commit_signoff_required: false,
     },
     orgs.newRepo('translations') {
+      allow_merge_commit: true,
+      delete_branch_on_merge: false,
     },
   ],
 }
