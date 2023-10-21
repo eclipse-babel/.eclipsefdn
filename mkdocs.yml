@@ -4,6 +4,9 @@ strict: false
 
 site_url: https://eclipse-babel.github.io/.eclipsefdn/
 
+repo_name: eclipse-babel/.eclipsefdn
+repo_url: https://github.com/eclipse-babel/.eclipsefdn/
+
 docs_dir: ./docs
 site_dir: ./_site
 
