@@ -16,9 +16,6 @@ orgs.newOrg('eclipse-babel') {
       delete_branch_on_merge: false,
       dependabot_alerts_enabled: false,
       web_commit_signoff_required: false,
-      workflows+: {
-        actions_can_approve_pull_request_reviews: false,
-      },
     },
     orgs.newRepo('plugins') {
       allow_merge_commit: true,
@@ -27,9 +24,6 @@ orgs.newOrg('eclipse-babel') {
       delete_branch_on_merge: false,
       dependabot_alerts_enabled: false,
       web_commit_signoff_required: false,
-      workflows+: {
-        actions_can_approve_pull_request_reviews: false,
-      },
     },
     orgs.newRepo('server') {
       allow_merge_commit: true,
@@ -38,16 +32,10 @@ orgs.newOrg('eclipse-babel') {
       delete_branch_on_merge: false,
       dependabot_alerts_enabled: false,
       web_commit_signoff_required: false,
-      workflows+: {
-        actions_can_approve_pull_request_reviews: false,
-      },
     },
     orgs.newRepo('translations') {
       allow_merge_commit: true,
       delete_branch_on_merge: false,
-      workflows+: {
-        actions_can_approve_pull_request_reviews: false,
-      },
     },
   ],
 }
