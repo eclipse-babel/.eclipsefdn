@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-babel') {
+orgs.newOrg('technology.babel', 'eclipse-babel') {
   settings+: {
     web_commit_signoff_required: false,
     workflows+: {
